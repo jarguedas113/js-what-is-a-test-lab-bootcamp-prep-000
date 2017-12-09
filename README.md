@@ -185,5 +185,5 @@ One note on this type of error is that it is sort of a catch-all. Tons and tons 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test-lab'>What Is A Test Lab</a> on Learn.co and start learning to code for free.</p>
 
-
+${name}
 
