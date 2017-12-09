@@ -190,5 +190,21 @@ One note on this type of error is that it is sort of a catch-all. Tons and tons 
 
 
 
-
+// ♥ /var/opt/rails/bin/learn-test-sender:72:in `results': undefined method `[]' for nil:NilClass (NoMethodError)
+        from /var/opt/rails/bin/learn-test-sender:93:in `block in send_results'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:384:in `block in run_request'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:398:in `block in build_request'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/request.rb:26:in `block in create'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/request.rb:25:in `tap'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/request.rb:25:in `create'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:394:in `build_request'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:379:in `run_request'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:174:in `post'
+        from /var/opt/rails/bin/learn-test-sender:90:in `send_results'
+        from /var/opt/rails/bin/learn-test-sender:101:in `<main>'
+e^C
+[05:32:42] (master) js-what-is-a-test-lab-bootcamp-prep-000
+// ♥ ^C
+[05:33:02] (master) js-what-is-a-test-lab-bootcamp-prep-000
+// ♥
 
