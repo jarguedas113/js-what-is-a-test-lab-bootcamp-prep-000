@@ -185,5 +185,14 @@ One note on this type of error is that it is sort of a catch-all. Tons and tons 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test-lab'>What Is A Test Lab</a> on Learn.co and start learning to code for free.</p>
 
-${name}
+on.rb:394:in `build_request'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:379:in `run_request'
+        from /usr/local/rvm/gems/ruby-2.3.1/gems/faraday-0.13.1/lib/faraday/connection.rb:174:in `post'
+        from /var/opt/rails/bin/learn-test-sender:90:in `send_results'
+        from /var/opt/rails/bin/learn-test-sender:101:in `<main>'
+e^C
+[05:32:42] (master) js-what-is-a-test-lab-bootcamp-prep-000
+// ♥ ^C
+[05:33:02] (master) js-what-is-a-test-lab-bootcamp-prep-000
+// ♥
 
